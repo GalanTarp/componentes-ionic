@@ -11,7 +11,9 @@
   </h1>
   <ion-list *ngIf="items.length>0" class="animated fadeIn">
     <ion-item *ngFor="let item of items; let i = index">
-      <ion-label>Item {{ i+1}}</ion-label>
+      <ion-label>
+        Item {{ i+1}}
+      </ion-label>
     </ion-item>
   </ion-list>
 </ion-content>
