@@ -88,5 +88,15 @@
       "icon": "arrow-round-down",
       "name": "Refresher",
       "redirectTo": "/refresh"
+    },
+    {
+      "icon": "search",
+      "name": "Search",
+      "redirectTo": "/searchbar"
+    },
+    {
+      "icon": "copy",
+      "name": "Segment",
+      "redirectTo": "/segment"
     }
   ]

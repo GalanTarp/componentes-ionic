@@ -83,6 +83,14 @@ const routes: Routes = [
     path: 'refresh',
     loadChildren: () => import('./pages/refresh/refresh.module').then( m => m.RefreshPageModule)
   },
+  {
+    path: 'searchbar',
+    loadChildren: () => import('./pages/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
+  },
+  {
+    path: 'segment',
+    loadChildren: () => import('./pages/segment/segment.module').then( m => m.SegmentPageModule)
+  },
 ];
 
 @NgModule({
