@@ -60,7 +60,7 @@
       "redirectTo": "/list"
     },
     {
-      "icon": "reorder",
+      "icon": "reorder-two",
       "name": "Listas - Reorder",
       "redirectTo": "/list-reorder"
     },
@@ -85,7 +85,7 @@
       "redirectTo": "/progress-bar"
     },
     {
-      "icon": "arrow-round-down",
+      "icon": "arrow-down-circle",
       "name": "Refresher",
       "redirectTo": "/refresh"
     },
@@ -98,5 +98,15 @@
       "icon": "copy",
       "name": "Segment",
       "redirectTo": "/segment"
+    },
+    {
+      "icon": "albums",
+      "name": "Slides",
+      "redirectTo": "/slides"
+    },
+    {
+      "icon": "cog",
+      "name": "Tabs",
+      "redirectTo": "/tabs/account"
     }
   ]
